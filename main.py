@@ -1,4 +1,5 @@
 import string
+import time
 
 
 def main():
@@ -22,9 +23,31 @@ def split_words(contents):
 
 
 def count_letters(contents):
-    account_of_letters = None
+    letter_frequency = {}
+
+    # print(letters)
+
+    # print(letter_frequency)
+    start = time.time()
     letters = string.ascii_lowercase[:]
-    print(letters)
+###################### Method1 : Define keys in dict first   time: 0.03897213935852051 ##############
+
+    # for x in letters:
+    #     letter_frequency[x] = 0
+    # for i in contents.lower():
+    #     if i in letter_frequency:
+    #         letter_frequency[i] += 1
+#####################Method 2: 1 loop    time: 0.03705883026123047#######################
+    for i in contents.lower():
+        if i in letter_frequency:
+            letter_frequency[i] += 1
+        elif i in letters:
+            letter_frequency[i] = 1
+        else:
+            continue
+    print(letter_frequency)
+    end = time.time()
+    print(end-start)
 
 
 main()
