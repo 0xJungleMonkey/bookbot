@@ -1,0 +1,27 @@
+Bookbot basic report:
+The letter "e" is used 46043 times.
+The letter "t" is used 30365 times.
+The letter "a" is used 26743 times.
+The letter "o" is used 25225 times.
+The letter "i" is used 24613 times.
+The letter "n" is used 24367 times.
+The letter "s" is used 21155 times.
+The letter "r" is used 20818 times.
+The letter "h" is used 19725 times.
+The letter "d" is used 16863 times.
+The letter "l" is used 12739 times.
+The letter "m" is used 10604 times.
+The letter "u" is used 10407 times.
+The letter "c" is used 9243 times.
+The letter "f" is used 8731 times.
+The letter "y" is used 7914 times.
+The letter "w" is used 7638 times.
+The letter "p" is used 6121 times.
+The letter "g" is used 5974 times.
+The letter "b" is used 5026 times.
+The letter "v" is used 3833 times.
+The letter "k" is used 1755 times.
+The letter "x" is used 677 times.
+The letter "j" is used 504 times.
+The letter "q" is used 324 times.
+The letter "z" is used 243 times.
