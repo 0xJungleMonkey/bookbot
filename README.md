@@ -7,7 +7,7 @@ This project includes 3 features: read the txt file, count letters frequency, ge
 
 ## Installation
 ```bash
-git clone 
+git clone https://github.com/0xJungleMonkey/bookbot
 ```
 
 ## Usage
