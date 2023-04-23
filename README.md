@@ -1,3 +1,4 @@
+
 # Bookbot
 Bootbot is a python library for generating basic letter frequency report for books.
 
@@ -19,7 +20,6 @@ python main.py
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-
 ## Developing notes
 This project includes 3 features: read the txt file, count letters frequency, generate basic report txt file as output.
 ### Key points: 
@@ -28,3 +28,4 @@ This project includes 3 features: read the txt file, count letters frequency, ge
 3. [Sort dictionary key/values](https://www.freecodecamp.org/news/sort-dictionary-by-value-in-python/)
 4. String concentration
 5. Calculate program execute time
+
