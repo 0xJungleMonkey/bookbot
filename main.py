@@ -6,7 +6,9 @@ def main():
     book_path = "books/Franskenstein.txt"
     contents = get_file_contents(book_path)
     single_words = split_words(contents)
-    count_letters(contents)
+    letter_dict = count_letters(contents)
+    sorted_dict = sort_dict(letter_dict)
+    generate_report(sorted_dict)
     # print(contents)
     # print(single_words)
 
@@ -37,7 +39,7 @@ def count_letters(contents):
     # for i in contents.lower():
     #     if i in letter_frequency:
     #         letter_frequency[i] += 1
-#####################Method 2: 1 loop    time: 0.03705883026123047#######################
+#####################  Method 2: 1 loop    time: 0.03705883026123047#######################
     for i in contents.lower():
         if i in letter_frequency:
             letter_frequency[i] += 1
@@ -45,9 +47,24 @@ def count_letters(contents):
             letter_frequency[i] = 1
         else:
             continue
-    print(letter_frequency)
     end = time.time()
     print(end-start)
+    return letter_frequency
+
+
+def sort_dict(letter_frequency):
+    sorted_dict = sorted(letter_frequency.items(),
+                         key=lambda x: x[1], reverse=True)
+    converted_dict = dict(sorted_dict)
+    return converted_dict
+
+
+def generate_report(sorted_dict):
+    f = open("bookbotreport.txt", "w")
+    f.write("Bookbot basic report:\n")
+    for i in sorted_dict:
+        f.write("The letter \"" + i + "\" is used " + str(sorted_dict[i])
+                + " times.\n")
 
 
 main()
