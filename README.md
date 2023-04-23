@@ -4,7 +4,7 @@ Bootbot is a python library for generating basic letter frequency report for boo
 
 ## Installation
 ```bash
-git clone 
+git clone https://github.com/0xJungleMonkey/bookbot
 ```
 
 ## Usage
