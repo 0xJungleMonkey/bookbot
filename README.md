@@ -1,5 +1,6 @@
-```python
 This project is made from 0xJungleMonkey when she is crazy.
+```python
+
 def main():
     book_path = "books/Franskenstein.txt"
     contents = get_file_contents(book_path)
